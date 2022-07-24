@@ -18,6 +18,7 @@ rosdep install -i --from-path src --rosdistro foxy -y
 sudo apt install -y ros-foxy-gazebo-ros \
 	ros-foxy-cartographer-ros \
 	ros-foxy-nav2-map-server
+pip3 install -U argcomplete pyserial
 echo -e "\033[31m"extra ros package installation is done"\033[0m"
 
 cd ~/ros2_ws/src
@@ -28,12 +29,10 @@ cd ~/ros2_ws/src/YDLidar-SDK/build
 cmake ..
 make
 sudo make install
-cmake ..
-make
-sudo make install
 cd ~/ros2_ws/src/omo_r1mini-foxy/omo_r1mini_bringup
 sudo ./create_udev_rules.sh
 echo -e "\033[31m"UDEV setting is done. please reboot pc"\033[0m"
 cd ~/ros2_ws
+colcon build
 colcon build
 echo -e "\033[31m"omo_r1mini, ydlidar_ros2_driber package is downloaded and colcon build is done"\033[0m"

@@ -18,7 +18,7 @@ rosdep install -i --from-path src --rosdistro foxy -y
 sudo apt install -y ros-foxy-gazebo-ros \
 	ros-foxy-cartographer-ros \
 	ros-foxy-nav2-map-server \
-	openssh-server
+	openssh-server net-tools
 pip3 install -U argcomplete pyserial
 echo -e "\033[31m"extra ros package installation is done"\033[0m"
 

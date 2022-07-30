@@ -17,7 +17,8 @@ echo -e "\033[31m"bashrc modification is done. shotcut etc."\033[0m"
 rosdep install -i --from-path src --rosdistro foxy -y
 sudo apt install -y ros-foxy-gazebo-ros \
 	ros-foxy-cartographer-ros \
-	ros-foxy-nav2-map-server
+	ros-foxy-nav2-map-server \
+	openssh-server
 pip3 install -U argcomplete pyserial
 echo -e "\033[31m"extra ros package installation is done"\033[0m"
 

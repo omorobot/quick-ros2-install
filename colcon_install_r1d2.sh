@@ -35,4 +35,4 @@ echo -e "\033[31m"UDEV setting is done. please reboot pc"\033[0m"
 cd ~/ros2_ws
 colcon build
 colcon build
-echo -e "\033[31m"omo_r1mini, ydlidar_ros2_driber package is downloaded and colcon build is done"\033[0m"
+echo -e "\033[31m"omo_r1d2, ydlidar_ros2_driber package is downloaded and colcon build is done"\033[0m"

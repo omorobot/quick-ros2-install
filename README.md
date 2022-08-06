@@ -41,7 +41,7 @@ jetson nano의 경우 usb 연결 시 별다른 제약사항이 없다.
 일반적으로 전면은 mobile robot(usb가 2개일 경우 오른쪽)  
 후면은 lidar(usb가 2개일 경우 위쪽)으로 연결하면 된다.  
 r1d2 robot 출하시 라벨이 붙어서 나간다.  
-참고로 nuc가 뒤집어져서 설치되어 있기때문에 위, 아래 확인 잘하자.
+참고로 nuc가 뒤집어져서 설치되어 있기때문에 위치 확인 잘하자.
 
 r1mini udev rules 설정(jetson nano)
 ```

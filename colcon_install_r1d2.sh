@@ -30,9 +30,9 @@ cd ~/ros2_ws/src/YDLidar-SDK/build
 cmake ..
 make
 sudo make install
-cd ~/ros2_ws/src/omo_r1-foxy/omo_r1_bringup
-sudo ./create_udev_rules.sh
-echo -e "\033[31m"UDEV setting is done. please reboot pc"\033[0m"
+#cd ~/ros2_ws/src/omo_r1-foxy/omo_r1_bringup
+#sudo ./create_udev_rules.sh
+#echo -e "\033[31m"UDEV setting is done. please reboot pc"\033[0m"
 cd ~/ros2_ws
 colcon build
 colcon build

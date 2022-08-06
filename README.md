@@ -51,6 +51,9 @@ r1d2 udev rules 설정(nuc11tnhi7, nuc11pahi5)
 ```
 sudo r1d2_udev_rules.sh
 ```
-
-
+혹시 다른 pc를 사용한다면 아래 명령으로 위치 확인하여 수정하도록 한다.
+```
+udevadm info -a -n /dev/ttyUSB*
+```
+---
 Maintained by OMOROBOT INC

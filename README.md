@@ -11,7 +11,7 @@ ubuntu & xubuntu 20.04, ROS2-foxy 버전에서 테스트 되었습니다.
 ros2 foxy 버전을 설치하는 경우 터미널에 다음과 같이 입력합니다.  
 
 ```
-./ros_install.sh
+./ros2_install.sh
 ```
 설치가 완료되면 재부팅 하도록 한다.
 

@@ -10,7 +10,7 @@ echo "alias sai='sudo apt install'" >> ~/.bashrc
 echo "alias cw='cd ~/ros2_ws'" >> ~/.bashrc
 echo "alias cs='cd ~/ros2_ws/src'" >> ~/.bashrc
 echo "alias cb='cd ~/ros2_ws && colcon build'" >> ~/.bashrc
-echo "alias eb='gedit ~/.bashrc'" >> ~/.bashrc
+echo "alias eb='nano ~/.bashrc'" >> ~/.bashrc
 echo "alias sb='source ~/.bashrc'" >> ~/.bashrc
 echo -e "\033[31m"bashrc modification is done. shotcut etc."\033[0m"
 

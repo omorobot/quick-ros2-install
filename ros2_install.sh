@@ -1,17 +1,17 @@
 #!/bin/bash
 
-echo "Set locale (don't need)"
-#locale  # check for UTF-8
-#sudo apt update && sudo apt install locales
-#sudo locale-gen en_US en_US.UTF-8
-#sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
-#export LANG=en_US.UTF-8
-#locale  # verify settings
+echo "Set locale"
+locale  # check for UTF-8
+sudo apt update && sudo apt install locales
+sudo locale-gen en_US en_US.UTF-8
+sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
+locale  # verify settings
 
-echo "Setup Sources (don't need)"
-#apt-cache policy | grep universe
-#sudo apt install software-properties-common
-#sudo add-apt-repository universe
+echo "Setup Sources"
+apt-cache policy | grep universe
+sudo apt install software-properties-common
+sudo add-apt-repository universe
 
 echo "Add repository"
 sudo apt update && sudo apt install curl gnupg2 lsb-release

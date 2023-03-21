@@ -11,7 +11,7 @@ ubuntu & xubuntu 20.04, ROS2-foxy 버전에서 테스트 되었습니다.
 ros2 foxy 버전을 설치하는 경우 터미널에 다음과 같이 입력합니다.  
 
 ```
-./ros2_install.sh
+./1_ros2_install.sh
 ```
 설치가 완료되면 재부팅 하도록 한다.
 
@@ -26,11 +26,11 @@ ROS2 설치 후 아래 명령중 하나를 실행하여 ros2_ws를 생성한다.
 
 r1mini 패키지 설치 할 경우
 ```
-./colcon_install_r1mini.sh
+./2_colcon_install_r1mini.sh
 ```
 r1d2 패키지 설치 할 경우
 ```
-./colcon_install_r1d2.sh
+./2_colcon_install_r1d2.sh
 ```
 PC를 재부팅 하도록 한다.
 
@@ -45,11 +45,11 @@ r1d2 robot 출하시 라벨이 붙어서 나간다.
 
 r1mini udev rules 설정(jetson nano)
 ```
-sudo ./r1mini_udev_rules.sh
+sudo ./3_r1mini_udev_rules.sh
 ```
 r1d2 udev rules 설정(nuc11tnhi7, nuc11pahi5)
 ```
-sudo ./r1d2_udev_rules.sh
+sudo ./3_r1d2_udev_rules.sh
 ```
 혹시 다른 pc를 사용한다면 아래 명령으로 위치 확인하여 수정하도록 한다.
 ```

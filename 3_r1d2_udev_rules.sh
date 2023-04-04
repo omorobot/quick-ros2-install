@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo ""
-echo "This script copies OMO R1 udev rules to /etc/udev/rules.d/"
+echo "This script copies r1d2 udev rules to /etc/udev/rules.d/"
 echo ""
 
 echo "Motor Driver (USB Serial from RS232) : /dev/ttyUSBx to /dev/ttyMotor :"

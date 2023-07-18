@@ -10,6 +10,7 @@ echo "alias cs='cd ~/ros2_ws/src'" >> ~/.bashrc
 echo "alias cb='cd ~/ros2_ws && colcon build --symlink-install'" >> ~/.bashrc
 echo "alias eb='nano ~/.bashrc'" >> ~/.bashrc
 echo "alias sb='source ~/.bashrc'" >> ~/.bashrc
+echo "export ROS_DOMAIN_ID=77 # 0~101" >> ~/.bashrc
 echo -e "\033[31m"bashrc modification is done. shotcut etc."\033[0m"
 
 rosdep install -i --from-path src --rosdistro foxy -y

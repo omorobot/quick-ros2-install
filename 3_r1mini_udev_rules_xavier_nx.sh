@@ -5,7 +5,7 @@ echo "This script copies r1mini(xavier nx) udev rules to /etc/udev/rules.d/"
 echo ""
 
 echo "Motor Driver (USB Serial from RS232) : /dev/ttyTHS0 to /dev/ttyMCU :"
-if [ -f "/etc/udev/rules.d/98-omo-r1-mini-mcu" ]; then
+if [ -f "/etc/udev/rules.d/98-omo-r1-mini-mcu.rules" ]; then
     echo "98-omo-r1-mini-mcu file already exist."
 else 
     echo 'KERNEL=="ttyTHS0", MODE:="0666", GROUP:="dialout", SYMLINK+="ttyMCU"' > /etc/udev/rules.d/98-omo-r1-mini-mcu.rules   
